@@ -1,24 +1,40 @@
-# alerts-components
+# Alert Component Vue
 
-## Project setup
-```
-yarn install
-```
+<p align="center">
+  <img src="https://res.cloudinary.com/doampncx5/image/upload/v1595633531/alert.png"/>
+</p>
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Installing
 
-### Compiles and minifies for production
-```
-yarn build
+Using npm:
+
+```bash
+$ npm i z-vue-alert
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Example
+```vue
+<template>
+  <div>
+    <z-vue-alert type="info">
+      <span>Eu sou um alerta de informação!</span>
+    </z-vue-alert>
+    <z-vue-alert type="warning">
+      <span>Eu sou um alerta de perigo!</span>
+    </z-vue-alert>
+    ou
+    <z-vue-alert type="error" text="Eu sou um alerta de erro!" />
+    <z-vue-alert type="success" text="Eu sou um alerta de sucesso!" />
+  </div>
+</template>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<script>
+import Alert from 'z-vue-alert'
+
+export default {
+  components: {
+    'z-vue-alert': Alert,
+  }
+}
+</script>
+```

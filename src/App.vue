@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <z-vue-alert type="info">
+      <span>Eu sou um alerta de informação!</span>
+    </z-vue-alert> <br />
+    <z-vue-alert type="error">
+      <span>Eu sou um alerta de erro!</span>
+    </z-vue-alert><br />
+    <z-vue-alert type="warning" text="Eu sou um alerta de perigo!"/><br />
+    <z-vue-alert type="success" text="Eu sou um alerta de sucesso!" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 

@@ -1,11 +1,29 @@
 {
-  "name": "alerts-components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "z-vue-alert",
+  "version": "0.1.7",
+  "author": {
+    "name": "Zoranildo Santos"
+  },
+  "main": "dist/z-vue-alert.umd.js",
+  "unpkg": "dist/z-vue-alert.umd.min.js",
+  "keywords": [
+    "alerts",
+    "lib",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zorasantos/z-vue-alert"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name z-vue-alert src/components/Alert.vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
