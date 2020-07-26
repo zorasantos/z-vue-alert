@@ -1,5 +1,9 @@
 # Alert Component Vue
 
+<a href="https://www.npmjs.com/package/z-vue-alert"><img src="https://img.shields.io/github/license/zorasantos/z-vue-alert"></a>
+<a href="https://npmcharts.com/compare/z-vue-alert?minimal=true"><img src="https://img.shields.io/npm/dw/z-vue-alert" alt="Downloads"></a>
+<a href="https://www.npmjs.com/package/z-vue-alert"><img src="https://img.shields.io/npm/v/z-vue-alert?color=green" alt="Version"></a>
+
 <p align="center">
   <img src="https://res.cloudinary.com/doampncx5/image/upload/v1595633531/alert.png"/>
 </p>
