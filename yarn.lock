@@ -8215,11 +8215,3 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
-
-z-vue-alert@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/z-vue-alert/-/z-vue-alert-0.1.7.tgz#73839b7912e46ffca00c33e52d9ea6e1c6f51512"
-  integrity sha512-wYcKs3KeusBg6/rkxV/G2gzIY2m0j7DDB5AL9BLaaEAY3OQFi2d94KZxVyc4/HBNsGv4MJs00MZCiUq2opBTkw==
-  dependencies:
-    core-js "^3.6.5"
-    vue "^2.6.11"
